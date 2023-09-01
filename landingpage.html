@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+  </head>
+  <style>
+    body{
+      height: 3000px;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="col-4">
+                <a class="navbar-brand" href="#"></a>
+                <img src="asset/Logo Blue.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-4">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active mx-4" aria-current="page" href="#">Beranda</a>
+                    <a class="nav-link mx-4" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                  </div>
+                </div>
+            </div>
+          <div class="col-4 text-center">
+            <button type="button" class="btn mx-4" style="background-color: #4D51B4; color: white;">Masuk</button>
+            <button type="button" class="btn" style="border-color: #4D51B4; color: #4D51B4;">Daftar</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="card bg-dark text-white m-5" >
+        <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" style="height: 430px;" alt="Stony Beach"/>
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.3); height: 430px;">
+          <div class="row">
+            <div class="col-6">
+                <h2 class="m-4" style="font-size: 50px;">Temukan Kampus Dan Jurusan Favoritmu</h2>
+            </div>
+            <div class="row">
+              <p class="mx-4">Cari Informasi Mengenai Kampus Atau Jurusan Pilihanmu </p>
+            </div>
+            <div class="row">
+              <div class="col mt-3">
+                <a href="#" 
+                style="text-decoration: none; 
+                background-color: #4D51B4; 
+                color: white; 
+                font-size: 20px;" 
+                class="mx-4 p-1 rounded-3">Jelajahi Sekarang</a>
+              </div>
+              </div>
+              <div class="container align-self-end">
+                  <div class="row ">
+                    
+                    <div class="input-group mt-3">
+                      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                   
+                  </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="judul">
+          <p class="text-center">Partner Terbaik Kami</p>
+          <div class="row">
+            <div class="col-3 text-center">
+              <img src="asset/gambar.jpg" alt="" style="width: inherit;">
+            </div>
+            <div class="col-3 text-center">
+              <img src="asset/gambar.jpg" alt="" style="width: inherit;">
+            </div>
+            <div class="col-3 text-center">
+              <img src="asset/gambar.jpg" alt="" style="width: inherit;">
+            </div>
+            <div class="col-3 text-center">
+              <img src="asset/gambar.jpg" alt="" style="width: inherit;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="kampus mt-5">
+        <div class="card" style="border: none;" >
+          <img src="asset/Vector 1.png" class="card-img" alt="..." style="height: 450px;">
+          <!-- <div class="card-img-overlay m-5" style="height: 450px;">
+            <h5 class="card-title">Kampus</h5>
+            <p class="card-text">Rekomendasi</p>
+            <div class="testimonial-slider">
+              <div id="carouselExampleControls" class="carousel carousel-dark" data-bs-ride="carousel">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="testimonial-title">
+                                  <i class="bi bi-quote display-2"></i>
+                                  <h2 class="fw-bold display-6">What our customers say</h2>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                              </button>
+                          </div>
+                          <div class="col-md-8">
+                              <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                      <div class="card" id="cardkampus">
+                                          <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                                          <div class="card-body">
+                                              <h5 class="card-title">Card title 1</h5>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <p class="card-text">"Some dummy text you don't need to read. Since you have decided to read, do like, share, comment and subscribe to Coding Yaar."</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="card">
+                                          <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                                          <div class="card-body">
+                                              <h5 class="card-title">Card title 2</h5>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <p class="card-text">"Some dummy text you don't need to read. Since you have decided to read, do like, share, comment and subscribe to Coding Yaar."</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="card">
+                                          <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                                          <div class="card-body">
+                                              <h5 class="card-title">Card title 3</h5>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <p class="card-text">"Some dummy text you don't need to read. Since you have decided to read, do like, share, comment and subscribe to Coding Yaar."</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="card">
+                                          <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                                          <div class="card-body">
+                                              <h5 class="card-title">Card title 4</h5>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <p class="card-text">"Some dummy text you don't need to read. Since you have decided to read, do like, share, comment and subscribe to Coding Yaar."</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="card">
+                                          <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                                          <div class="card-body">
+                                              <h5 class="card-title">Card title 5</h5>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <p class="card-text">"Some dummy text you don't need to read. Since you have decided to read, do like, share, comment and subscribe to Coding Yaar."</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="card">
+                                          <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                                          <div class="card-body">
+                                              <h5 class="card-title">Card title 6</h5>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <i class="bi bi-star-fill text-warning pe-1"></i>
+                                              <p class="card-text">"Some dummy text you don't need to read. Since you have decided to read, do like, share, comment and subscribe to Coding Yaar."</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div> -->
+        </div>
+      </section>
+      <!-- Informasi Terbaru -->
+      <div class="container-fluid">
+        <div class="title mt-4 text-center">
+          <h1 style="font-size: 30px; font-weight: bolder; font-family: Arial, Helvetica, sans-serif; color: #4D51B4;">Informasi Terbaru</h1>
+          <p style="color: #4D51B4;">Temukan Artikel Dan Tips Menarik Seputar Dunia Kuliah</p>
+        </div>
+      <div class="row m-5">
+        <div class="col-3">
+          <div class="card " style="width: 308px; height: 490px;">
+            <img src="asset/image 7.png" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title">UM Terus Kebut Pendirian Fakultas Kedokteran Dan Kesehatan</h5>
+              <p class="card-text">Universitas Negeri Malang (UM) mengaku akan terus mengejar target pendirian Fakultas</p>
+              <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Go somewhere<i class="bi bi-arrow-right mx-2"></i></a>
+            </div>
+          </div>
+          </div>
+          <div class="col-3">
+            <div class="card " style="width: 308px; height: 490px;">
+              <img src="asset/image 7.png" class="card-img-top" alt="...">
+              <div class="card-body" style="height: 100px;">
+                <h5 class="card-title">UM Terus Kebut Pendirian Fakultas Kedokteran Dan Kesehatan</h5>
+                <p class="card-text">Universitas Negeri Malang (UM) mengaku akan terus mengejar target pendirian Fakultas</p>
+                <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+              </div>
+              <div class="card-footer" style="border: none;">
+                <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Go somewhere<i class="bi bi-arrow-right mx-2"></i></a>
+              </div>
+            </div>
+        </div>
+        <div class="col-3">
+          <div class="card " style="width: 308px; height: 490px;">
+            <img src="asset/image 7.png" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 100px;">
+              <h5 class="card-title">UM Terus Kebut Pendirian Fakultas Kedokteran Dan Kesehatan</h5>
+              <p class="card-text">Universitas Negeri Malang (UM) mengaku akan terus mengejar target pendirian Fakultas</p>
+              <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Go somewhere<i class="bi bi-arrow-right mx-2"></i></a>
+            </div>
+          </div>
+      </div>
+      <div class="col-3">
+        <div class="card " style="width: 308px; height: 490px;">
+          <img src="asset/image 7.png" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 100px;">
+            <h5 class="card-title">UM Terus Kebut Pendirian Fakultas Kedokteran Dan Kesehatan</h5>
+            <p class="card-text">Universitas Negeri Malang (UM) mengaku akan terus mengejar target pendirian Fakultas</p>
+            <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+          </div>
+          <div class="card-footer" style="border: none;">
+            <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Go somewhere<i class="bi bi-arrow-right mx-2"></i></a>
+            
+          </div>
+        </div>
+    </div>
+      </div>
+
+      <div class="text-center">
+          <a href="#" class="btn" style="color: #4D51B4; font-weight: bold;">Lihat Selengkapnya <i class="bi bi-arrow-right mx-2"></i></a>
+      </div>
+    </div>
+
+
+    <!-- JURUSAN -->
+    <div class="container-fluid" id="bgjurusan">
+      <div class="container" style="border-right: 6px solid red;" >
+        <h4 class="text-end " style="font-size: 40px; font-family: Arial, Helvetica, sans-serif;" >Jurusan</h4>
+        <h4 class="text-end ">Pilihan</h4>
+      </div>
+      <div class="row m-5">
+        <div class="col-3">
+          <div class="card " style="width: 308px; height: 490px;">
+            <div class="card-header" style="border: none; background-color: white; height: fit-content;">
+              <h2>Sistem Informasi</h2>
+              <p style="color: #4D51B4; font-size: 18px;" >Komputer & Informatika</p>
+            </div>
+            <div class="card-body" >
+              <p class="card-text">Sistem informasi adalah sebuah sistem formal, sosioteknikal, dan organisasional yang dirancang untuk mengumpulkan, memproses, menyimpan, dan mendistribusikan informasi. Dari perspektif sosioteknis, sistem informasi disusun oleh empat komponen: tugas, orang, struktur, dan teknologi.</p>
+              <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Detail<i class="bi bi-arrow-right mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card " style="width: 308px; height: 490px;">
+            <div class="card-header" style="border: none; background-color: white; height: fit-content;">
+              <h2>Ilmu Administrasi</h2>
+              <p style="color: #4D51B4; font-size: 18px;" >Komputer & Informatika</p>
+            </div>
+            <div class="card-body" >
+              <p class="card-text">Sistem informasi adalah sebuah sistem formal, sosioteknikal, dan organisasional yang dirancang untuk mengumpulkan, memproses, menyimpan, dan mendistribusikan informasi. Dari perspektif sosioteknis, sistem informasi disusun oleh empat komponen: tugas, orang, struktur, dan teknologi.</p>
+              <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Detail<i class="bi bi-arrow-right mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card " style="width: 308px; height: 490px;">
+            <div class="card-header" style="border: none; background-color: white; height: fit-content;">
+              <h2>Sistem Informasi</h2>
+              <p style="color: #4D51B4; font-size: 18px;" >Komputer & Informatika</p>
+            </div>
+            <div class="card-body" >
+              <p class="card-text">Sistem informasi adalah sebuah sistem formal, sosioteknikal, dan organisasional yang dirancang untuk mengumpulkan, memproses, menyimpan, dan mendistribusikan informasi. Dari perspektif sosioteknis, sistem informasi disusun oleh empat komponen: tugas, orang, struktur, dan teknologi.</p>
+              <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Detail<i class="bi bi-arrow-right mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card " style="width: 308px; height: 490px;">
+            <div class="card-header" style="border: none; background-color: white; height: fit-content;">
+              <h2>Ilmu Administrasi</h2>
+              <p style="color: #4D51B4; font-size: 18px;" >Komputer & Informatika</p>
+            </div>
+            <div class="card-body" >
+              <p class="card-text">Sistem informasi adalah sebuah sistem formal, sosioteknikal, dan organisasional yang dirancang untuk mengumpulkan, memproses, menyimpan, dan mendistribusikan informasi. Dari perspektif sosioteknis, sistem informasi disusun oleh empat komponen: tugas, orang, struktur, dan teknologi.</p>
+              <p class="card-text mt-5" style="font-weight: bold;">11/12/2022</p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn" style="width: 100%; background-color: #4D51B4; color: white;">Detail<i class="bi bi-arrow-right mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn">Lihat Selengkapnya <i class="bi bi-arrow-right mx-2"></i></a>
+      </div>
+    </div>
+
+    <!-- PENUTUP -->
+    <div class="container-fluid">
+      <div class="row m-5 mb-2">
+        <!-- JUDUL -->
+        <div class="text-center">
+          <img src="asset/Logo Blue.png" alt="">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- SUB JUDUL -->
+        <div  style="width: 600px;">
+         <p class="text-center">Temukan lebih dari  rekomendasi kampus di Indonesia, lengkap dengan info jurusan sesuai minat dan bakat, biaya, hingga prospek karier</p>
+       </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <a class="btn active mx-4" href="#">Beranda</a>
+        <a class="btn mx-4" href="#">Features</a>
+        <a class="btn mx-4" href="#">Pricing</a>
+      </div>
+
+      <div class="text-center mt-5 mb-5 " style="color: #4D51B4; font-size: 30px;">
+        <i class="bi bi-instagram mx-5" ></i>
+        <i class="bi bi-facebook mx-5"></i>
+        <i class="bi bi-youtube mx-5"></i>
+        <i class="bi bi-twitter mx-5"></i>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: #4D51B4;">   
+        <div class="row justify-content-center pt-4 pb-3" style="color: white; font-size: 18px;">
+          ©2023 Kampus Malang, All Rights Reserved.
+        </div>
+    </div>
+
+    <!-- <div class="container-fluid"></div> -->
+
+      <!-- <script src="index.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
